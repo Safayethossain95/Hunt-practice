@@ -1,0 +1,70 @@
+*{
+     padding:0;
+     margin:0;
+}
+ul,ol{
+     padding: 0;
+     margin:0;
+}
+.navbar{
+     background: rgba(75, 68, 68, 0.507);
+     position: absolute;
+     top:0;
+     left:0;
+     width:100%;
+     z-index: 9999;
+     border-bottom:1px solid rgba(254, 199, 0, 0.20);
+}
+#banner{
+     
+     /* height:500px; */
+     
+     
+}
+#banner .row{
+     padding-right: 0!important;
+     padding-left: 0 !important;
+}
+.ban-img {
+     position: relative;
+     
+}
+.ban-img img{
+     width:100%;
+}
+#banner .banner-text h3{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+     font-size: 36px;
+     padding-top: 100px;
+     color:#fff;
+     margin-top:-100px;
+}
+.banner-text{
+     text-align: center;
+  
+}
+.img-overlay{
+     
+     background-color: rgba(0, 0, 0, 0.6);
+     clip-path: polygon(0 0, 100% 0, 100% 86%, 0% 100%);
+}
+.banner-text h1{
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     font-size: 55px;
+
+     
+     color:#fec600;
+}
+.banner-text p{
+     font-family: 'Open Sans', sans-serif;
+     font-style: 14px;
+     font-weight: 400;   
+     color:#f1f1f1;
+     width:535px;
+     margin:0 auto;
+}
+.slick-slider{
+     position: absolute;
+}
