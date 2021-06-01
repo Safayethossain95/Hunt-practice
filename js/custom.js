@@ -1,12 +1,12 @@
-$(function(){
-     $('.slick-slider').slick({
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          autoplay: true,
-          autoplaySpeed: 2000,
-          arrows:true,
-          prevArrow:'.left',
-          nextArrow:'.right',
-          pauseOnHover:false,
-        });
-}
+$('.vai_slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    autoplay:true,
+    prevArrow:"<i class='fa fa-chevron-left left'></i>",
+    nextArrow:"<i class='fa fa-chevron-right right'></i>",
+
+  });
