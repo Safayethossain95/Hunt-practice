@@ -1,11 +1,11 @@
 $('.vai_slider').slick({
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    autoplay:true,
+    autoplay:false,
     prevArrow:"<i class='fa fa-chevron-left left'></i>",
     nextArrow:"<i class='fa fa-chevron-right right'></i>",
 
