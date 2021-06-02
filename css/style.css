@@ -8,6 +8,9 @@ ul,ol{
 a{
     text-decoration: none;
 }
+p{
+    margin:0;
+}
 .navbar{
     background: rgba(75, 68, 68, 0.507);
     position: absolute;
@@ -93,4 +96,87 @@ a{
     background:#fec600;
     color:#000;
     border:0;
+}
+
+.s-icon-height{
+    height:100%;
+}
+.s-icon{
+    
+    background:red;
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+}
+
+.s-title{
+    height:100%;
+}
+.s-paragraph{
+    height:100%;
+}
+.s-title h3{
+    text-transform: uppercase;
+    
+
+}
+#services{
+    position: relative;
+    clip-path: polygon(0 13%, 100% 0%, 100% 86%, 0% 100%);
+    background:rgb(100, 165, 106);
+    padding:200px 0;
+}
+.s-slider {
+	padding: 106px 0;
+}
+
+.border-img {
+	background: url("../images/border.png");
+	background-repeat: repeat-y;
+	background-position: center;
+	height: 780px;
+	position: absolute;
+	width: 3px;
+	top: 333px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+}
+.s-paragraph{
+    padding:50px 32px;
+    background:#ddd;
+}
+.b-up {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	position: absolute;
+	left: 50%;
+	top: 35px;
+	transform: translateX(-50%);
+	
+}
+.b-up:hover{
+    background:#fec600;
+}
+.fa.fa-chevron-up.b-up.slick-arrow {
+	padding: 11px;
+	border-radius: 50%;
+	border: 1px solid #000;
+}
+.b-down {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	position: absolute;
+	left: 50%;
+	bottom: 49px;
+	transform: translateX(-50%);
+	
+}
+.b-down:hover{
+    background:#fec600;
+}
+.fa.fa-chevron-down.b-down.slick-arrow {
+	padding: 11px;
+	border-radius: 50%;
+	border: 1px solid #000;
 }
